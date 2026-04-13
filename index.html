@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mechanical Log Simplifier</title>
+</head>
+<body>
+
+<h2>Enter Mechanical Log</h2>
+
+<form method="POST">
+
+    <label>Select Vehicle Type:</label><br>
+    <select name="vehicle">
+        <option value="automobile">Automobile</option>
+        <option value="ev">Electric Vehicle (EV)</option>
+    </select><br><br>
+
+    <textarea name="log" rows="5" cols="50"></textarea><br><br>
+
+    <button type="submit">Simplify</button>
+</form>
+
+<h3>Output:</h3>
+<p>{{ result }}</p>
+
+</body>
+</html>
